@@ -62,6 +62,16 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "capistrano", "~> 3.16", require: false
+  gem "capistrano-rails", "~> 1.6", require: false
+  gem "capistrano-rvm", "~> 0.1.2"
+  gem "capistrano3-puma", "~> 5.2"
+  gem "capistrano-rails-console", "~> 2.3", require: false
+  gem "capistrano-db-tasks", "~> 0.6", require: false
+  gem "capistrano-sidekiq", "~> 2.0"
+  # fix net-ssh bug for deploy
+  gem "ed25519", "~> 1.3"
+  gem "bcrypt_pbkdf", "~> 1.1"
 end
 
 group :test do
@@ -72,5 +82,6 @@ group :test do
 end
 
 gem "pg", "~> 1.2"
-
 gem "dotenv-rails", "~> 2.7"
+gem "sidekiq", "~> 6.3"
+gem "whenever", "~> 1.0", require: false

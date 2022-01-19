@@ -85,3 +85,5 @@ gem "pg", "~> 1.2"
 gem "dotenv-rails", "~> 2.7"
 gem "sidekiq", "~> 6.3"
 gem "whenever", "~> 1.0", require: false
+
+gem "awesome_print", "~> 1.9"

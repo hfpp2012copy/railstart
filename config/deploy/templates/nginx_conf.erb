@@ -34,6 +34,13 @@ server {
 <% else -%>
   ssl_certificate_key /etc/ssl/private/<%= fetch(:nginx_config_name) %>.key;
 <% end -%>
+
+<% if fetch(:nginx_ssl_dhparam) -%>
+  ssl_dhparam <%= fetch(:nginx_ssl_dhparam) %>;
+<% else -%>
+  ssl_dhparam /etc/ssl/private/<%= fetch(:nginx_config_name) %>.dhparam.pem;
+<% end -%>
+
 <% else -%>
   listen 80;
 <% end -%>

@@ -22,6 +22,11 @@ set :sidekiq_service_unit_name, "#{fetch(:application)}-sidekiq"
 SSHKit.config.command_map[:sidekiq] = "bundle exec sidekiq"
 SSHKit.config.command_map[:sidekiqctl] = "bundle exec sidekiqctl"
 
+set :nginx_use_ssl, ENV["nginx_use_ssl"] == "true"
+set :nginx_ssl_certificate, ENV["nginx_ssl_certificate"]
+set :nginx_ssl_certificate_key, ENV["nginx_ssl_certificate_key"]
+set :nginx_ssl_dhparam, ENV["nginx_ssl_dhparam"]
+
 
 set :bundle_flags, ''
 

@@ -13,6 +13,8 @@ set :rvm_ruby_version, 'ruby-3.0.0'
 set :puma_init_active_record, true
 set :puma_phased_restart, true
 
+set :nginx_server_name, ENV["domain"]
+
 set :puma_service_unit_name, fetch(:application)
 set :sidekiq_service_unit_user, :system
 set :sidekiq_service_unit_name, "#{fetch(:application)}-sidekiq"

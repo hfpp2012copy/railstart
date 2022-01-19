@@ -5,7 +5,7 @@ lock "~> 3.16.0"
 set :application, ENV["application"]
 set :deploy_to, "/home/deploy/#{fetch(:application)}"
 set :repo_url, ENV["git_repo_url"]
-set :branch, 'master'
+set :branch, 'main'
 append :linked_files, "config/master.key", ".env"
 append :linked_dirs, "log", "storage", "tmp/storage", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", 'public/shared', 'public/packs'
 
@@ -13,6 +13,8 @@ set :rvm_ruby_version, '2.7.1'
 set :puma_init_active_record, true
 
 set :puma_service_unit_name, fetch(:application)
+set :sidekiq_service_unit_user, :system
+set :sidekiq_service_unit_name, "#{fetch(:application)}-sidekiq"
 
 SSHKit.config.command_map[:sidekiq] = "bundle exec sidekiq"
 SSHKit.config.command_map[:sidekiqctl] = "bundle exec sidekiqctl"

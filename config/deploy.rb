@@ -11,6 +11,7 @@ append :linked_dirs, "log", "storage", "tmp/storage", "tmp/pids", "tmp/cache", "
 
 set :rvm_ruby_version, 'ruby-3.0.0'
 set :puma_init_active_record, true
+set :puma_phased_restart, true
 
 set :puma_service_unit_name, fetch(:application)
 set :sidekiq_service_unit_user, :system

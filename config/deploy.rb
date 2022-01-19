@@ -9,7 +9,7 @@ set :branch, 'main'
 append :linked_files, "config/master.key", ".env"
 append :linked_dirs, "log", "storage", "tmp/storage", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", 'public/shared', 'public/packs'
 
-set :rvm_ruby_version, '2.7.1'
+set :rvm_ruby_version, 'ruby-3.0.0'
 set :puma_init_active_record, true
 
 set :puma_service_unit_name, fetch(:application)

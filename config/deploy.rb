@@ -3,6 +3,7 @@ require 'dotenv/load'
 lock "~> 3.16.0"
 
 set :application, ENV["application"]
+set :deploy_to, "/home/deploy/#{fetch(:application)}"
 set :repo_url, ENV["git_repo_url"]
 set :branch, 'master'
 append :linked_files, "config/master.key", ".env"

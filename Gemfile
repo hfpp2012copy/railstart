@@ -100,3 +100,5 @@ gem "font-awesome-rails", "~> 4.7"
 gem "jsbundling-rails", "~> 1.0"
 
 gem "meta-tags", "~> 2.16"
+
+gem "inline_svg", "~> 1.8"

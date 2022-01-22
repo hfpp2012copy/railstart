@@ -87,3 +87,5 @@ gem "sidekiq", "~> 6.3"
 gem "whenever", "~> 1.0", require: false
 
 gem "awesome_print", "~> 1.9"
+
+gem "cssbundling-rails", "~> 1.0"

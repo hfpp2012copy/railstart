@@ -5,5 +5,6 @@
 //= link app.js
 //= link app.css
 //= link admin.css
+//= link admin.js
 //= link bootstrap-icons.woff
 //= link bootstrap-icons.woff2

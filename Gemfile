@@ -94,3 +94,5 @@ gem "rails_admin", "~> 3.0.beta2"
 gem "sassc-rails"
 
 gem "pghero", "~> 2.8"
+
+gem "font-awesome-rails", "~> 4.7"

@@ -95,10 +95,12 @@ gem "sassc-rails"
 
 gem "pghero", "~> 2.8"
 
-gem "font-awesome-rails", "~> 4.7"
+# gem "font-awesome-rails", "~> 4.7"
 
 gem "jsbundling-rails", "~> 1.0"
 
 gem "meta-tags", "~> 2.16"
 
 gem "inline_svg", "~> 1.8"
+
+gem "font_awesome5_rails", "~> 1.5"

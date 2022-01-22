@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Railstart</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -12,6 +11,7 @@
     <%= javascript_importmap_tags %>
     <style><%= yield :stylesheets %></style>
     <%- javascript_include_tag "index", "data-turbo-track": "reload", defer: true %>
+    <%= display_meta_tags site: ENV["website_title"] %>
   </head>
 
   <body>

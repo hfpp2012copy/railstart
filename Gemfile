@@ -98,3 +98,5 @@ gem "pghero", "~> 2.8"
 gem "font-awesome-rails", "~> 4.7"
 
 gem "jsbundling-rails", "~> 1.0"
+
+gem "meta-tags", "~> 2.16"

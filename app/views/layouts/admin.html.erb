@@ -16,6 +16,13 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "layouts/admin/header" %>
+    <%= render "layouts/admin/sidebar" %>
+    <%= render "layouts/admin/breadcrumb" %>
+    <main id="main" class="main">
+      <%= render "layouts/admin/breadcrumb" %>
+      <%= yield %>
+    </main>
+    <%= render "layouts/admin/footer" %>
   </body>
 </html>

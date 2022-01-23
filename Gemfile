@@ -104,3 +104,5 @@ gem "meta-tags", "~> 2.16"
 gem "inline_svg", "~> 1.8"
 
 gem "font_awesome5_rails", "~> 1.5"
+
+gem "devise", "~> 4.8"

@@ -1,3 +1,3 @@
 namespace :admin do
-  root 'dashboard#index'
+  root 'dashboard#show'
 end

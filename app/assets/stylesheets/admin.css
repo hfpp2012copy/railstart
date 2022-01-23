@@ -12,5 +12,6 @@
  *
  *= require niceadmin
  *= require bootstrap-icons
+ *= require simple-datatables/dist/style
  *= require_self
  */

@@ -47,6 +47,11 @@ braces@~3.0.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
+dayjs@^1.10.7:
+  version "1.10.7"
+  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
+
 esbuild-android-arm64@0.14.12:
   version "0.14.12"
   resolved "https://registry.npmjs.org/esbuild-android-arm64/-/esbuild-android-arm64-0.14.12.tgz#ca0327521cd570325d965e6957a7fa34dade4254"
@@ -239,6 +244,13 @@ sass@^1.49.0:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
+
+simple-datatables@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/simple-datatables/-/simple-datatables-3.2.0.tgz#a30b42c28dffce7772f8151641e40f8e233aa8b8"
+  integrity sha512-lWwrH7SbTHp4SBQmvGty3NFzruzcbz/URUkkcwd8AdnZrQUtSitGwKeJ64qUVv2JXWP+RLOe1xpN8bW4Z6gjSQ==
+  dependencies:
+    dayjs "^1.10.7"
 
 "source-map-js@>=0.6.2 <2.0.0":
   version "1.0.2"

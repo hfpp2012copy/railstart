@@ -6,4 +6,8 @@ module ApplicationHelper
   def bootstrap_flash_messages
     render 'shared/bootstrap_flash_messages'
   end
+
+  def tailwind_flash_messages
+    render 'shared/tailwind_flash_messages'
+  end
 end

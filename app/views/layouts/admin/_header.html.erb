@@ -1,10 +1,10 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
 
   <div class="d-flex align-items-center justify-content-between">
-    <a href="/admin" class="logo d-flex align-items-center">
+    <%= link_to "/admin", class: "logo d-flex align-items-center" do %>
       <%= image_tag "admin/logo.png" %>
       <span class="d-none d-lg-block"><%= ENV["admin_name"] %></span>
-    </a>
+    <% end %>
     <i class="bi bi-list toggle-sidebar-btn"></i>
   </div><!-- End Logo -->
 

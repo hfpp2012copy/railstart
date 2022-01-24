@@ -106,3 +106,10 @@ gem "meta-tags", "~> 2.16"
 gem "font_awesome5_rails", "~> 1.5"
 
 gem "devise", "~> 4.8"
+
+gem "groupdate", "~> 6.0"
+gem "apexcharts", "~> 0.1.11"
+
+gem "ffaker", "~> 2.20"
+
+gem "faker", "~> 2.19"

@@ -3,6 +3,7 @@
 // window.$ = window.jQuery = jQuery;
 
 import { DataTable } from "simple-datatables";
+
 const select = (el, all = false) => {
   el = el.trim();
   if (all) {
@@ -15,7 +16,17 @@ const select = (el, all = false) => {
 /**
  * Initiate Datatables
  */
-const datatables = select(".datatable", true);
-datatables.forEach((datatable) => {
-  new DataTable(datatable);
+function initSimpleDataTable() {
+  const datatables = select(".datatable", true);
+  datatables.forEach((datatable) => {
+    new DataTable(datatable);
+  });
+}
+
+document.addEventListener("turbo:load", () => {
+  initSimpleDataTable();
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  initSimpleDataTable();
 });

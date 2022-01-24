@@ -115,3 +115,7 @@ gem "ffaker", "~> 2.20"
 gem "faker", "~> 2.19"
 
 # gem "chartkick", "~> 4.1"
+
+group :production do
+  gem "terser", "~> 1.1"
+end

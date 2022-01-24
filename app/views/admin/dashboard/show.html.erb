@@ -414,7 +414,7 @@
           <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
 
           <script>
-            document.addEventListener("DOMContentLoaded", () => {
+            function budgetChart() {
               var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
                 legend: {
                   data: ['Allocated Budget', 'Actual Spending']
@@ -461,7 +461,14 @@
                   ]
                 }]
               });
+            }
+
+            document.addEventListener("DOMContentLoaded", () => {
+              budgetChart();
             });
+            document.addEventListener("turbo:load", () => {
+              budgetChart();
+            })
           </script>
 
         </div>
@@ -488,7 +495,8 @@
           <div id="trafficChart" style="min-height: 400px;" class="echart"></div>
 
           <script>
-            document.addEventListener("DOMContentLoaded", () => {
+            function trafficChart() {
+
               echarts.init(document.querySelector("#trafficChart")).setOption({
                 tooltip: {
                   trigger: 'item'
@@ -538,8 +546,15 @@
                     }
                   ]
                 }]
-              });
+              })
+            }
+            document.addEventListener("DOMContentLoaded", () => {
+              trafficChart()
             });
+
+            document.addEventListener("turbo:load", () => {
+              trafficChart()
+            })
           </script>
 
         </div>

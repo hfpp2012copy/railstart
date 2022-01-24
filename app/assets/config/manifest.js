@@ -10,3 +10,4 @@
 //= link bootstrap-icons.woff2
 //- link apexcharts.js
 //= link apexcharts/dist/apexcharts.min.js
+//= link echarts/dist/echarts.min.js

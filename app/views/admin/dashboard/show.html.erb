@@ -150,6 +150,9 @@
 
               <%= line_chart(series, options) %>
 
+              <%- #chartkick %>
+              <%- line_chart Post.group_by_day(:created_at).count %>
+
             </div>
 
           </div>

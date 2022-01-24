@@ -113,3 +113,5 @@ gem "apexcharts", "~> 0.1.11"
 gem "ffaker", "~> 2.20"
 
 gem "faker", "~> 2.19"
+
+# gem "chartkick", "~> 4.1"

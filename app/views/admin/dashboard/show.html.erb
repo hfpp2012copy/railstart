@@ -1,6 +1,6 @@
 <%= content_for :head do %>
-  <script src="<%= asset_path "apexcharts/dist/apexcharts.min.js" %>"></script>
-  <script src="<%= asset_path "echarts/dist/echarts.min.js" %>"></script>
+  <%= javascript_include_tag "apexcharts/dist/apexcharts.min.js", "data-turbolinks-track": "reload" %>
+  <%= javascript_include_tag "echarts/dist/echarts.min.js", "data-turbolinks-track": "reload" %>
 <% end %>
 <section class="section dashboard">
   <div class="row">

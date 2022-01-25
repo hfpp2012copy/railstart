@@ -13,7 +13,7 @@
     <%= stylesheet_link_tag "admin", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "admin", "data-turbo-track": "reload", defer: true %>
     <%= javascript_importmap_tags %>
-    <%= javascript_include_tag "index", "data-turbo-track": "reload", defer: true %>
+    <%- javascript_include_tag "index", "data-turbo-track": "reload", defer: true %>
     <%= display_meta_tags site: ENV["website_title"] %>
     <style><%= yield :stylesheets %></style>
     <%= yield :head %>

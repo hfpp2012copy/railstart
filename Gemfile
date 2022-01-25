@@ -106,6 +106,7 @@ gem "meta-tags", "~> 2.16"
 gem "devise", "~> 4.8"
 
 gem "groupdate", "~> 6.0"
+# 不用 gem 里的 js，是因为没有那么新，用 yarn 的比较新
 gem "apexcharts", "~> 0.1.11"
 # gem "chartkick", "~> 4.1"
 

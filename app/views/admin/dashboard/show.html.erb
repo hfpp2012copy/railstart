@@ -1,6 +1,7 @@
 <%= content_for :head do %>
-  <%= javascript_include_tag "apexcharts/dist/apexcharts.min.js", "data-turbo-track": "reload" %>
-  <%= javascript_include_tag "echarts/dist/echarts.min.js", "data-turbo-track": "reload" %>
+  <%- # 放这里 turbo 不会生效 %>
+  <%- # javascript_include_tag "apexcharts/dist/apexcharts.min.js", "data-turbo-track": "reload" %>
+  <%- # javascript_include_tag "echarts/dist/echarts.min.js", "data-turbo-track": "reload" %>
 <% end %>
 <section class="section dashboard">
   <div class="row">

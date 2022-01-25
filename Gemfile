@@ -118,8 +118,8 @@ group :production do
   gem "terser", "~> 1.1"
 end
 
-# 暂时不用，用 js 来做
-# gem "tinymce-rails", "~> 5.10"
-# gem "tinymce-rails-langs", "~> 5.20200505"
+# 其他的方式都不太适合用，除了这个
+gem "tinymce-rails", "~> 5.10"
+gem "tinymce-rails-langs", "~> 5.20200505"
 
 # gem "autoprefixer-rails"

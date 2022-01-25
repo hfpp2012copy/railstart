@@ -89,33 +89,37 @@ gem "whenever", "~> 1.0", require: false
 gem "awesome_print", "~> 1.9"
 
 gem "cssbundling-rails", "~> 1.0"
+gem "jsbundling-rails", "~> 1.0"
 
 gem "rails_admin", "~> 3.0.beta2"
 gem "sassc-rails"
 
 gem "pghero", "~> 2.8"
 
-# gem "font-awesome-rails", "~> 4.7"
-
-gem "jsbundling-rails", "~> 1.0"
-
 gem "meta-tags", "~> 2.16"
 
 # gem "inline_svg", "~> 1.8"
-
-gem "font_awesome5_rails", "~> 1.5"
+# gem "font-awesome-rails", "~> 4.7"
+# 如果要用，用下面这个
+# gem "font_awesome5_rails", "~> 1.5"
 
 gem "devise", "~> 4.8"
 
 gem "groupdate", "~> 6.0"
 gem "apexcharts", "~> 0.1.11"
-
-gem "ffaker", "~> 2.20"
-
-gem "faker", "~> 2.19"
-
 # gem "chartkick", "~> 4.1"
 
+gem "ffaker", "~> 2.20"
+gem "faker", "~> 2.19"
+
 group :production do
+  # UglifyJS only works with ES5. If you need to compress ES6, ruby-terser is a better option.
+  # gem "uglifier"
   gem "terser", "~> 1.1"
 end
+
+# 暂时不用，用 js 来做
+# gem "tinymce-rails", "~> 5.10"
+# gem "tinymce-rails-langs", "~> 5.20200505"
+
+# gem "autoprefixer-rails"

@@ -272,6 +272,11 @@ simple-datatables@^3.2.0:
   dependencies:
     dayjs "^1.10.7"
 
+simpledotcss@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/simpledotcss/-/simpledotcss-2.0.0.tgz#e4090886ebe3d9b4f0a972d8ec1244ddd306c0a6"
+  integrity sha512-gAQTih1jWEvPwtW7QkrPVr7HGtqYpqvuZmU9TSSY3odiiPJKaVI3miZZ4fv5jvr/enFqoOWKUwxrOMMpjiswWA==
+
 "source-map-js@>=0.6.2 <2.0.0":
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"

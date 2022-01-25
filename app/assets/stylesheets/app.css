@@ -12,5 +12,6 @@
  *
  *- require font_awesome5_webfont
  *= require actiontext
+ *= require simpledotcss/simple
  *= require_self
  */

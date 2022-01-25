@@ -3,7 +3,7 @@
   <ul class="sidebar-nav" id="sidebar-nav">
 
     <li class="nav-item">
-      <a class="nav-link " href="/admin">
+      <a class="nav-link <%= class_names(collapsed: !current_page?('/admin')) %>" href="/admin">
         <i class="bi bi-grid"></i>
         <span>Dashboard</span>
       </a>
@@ -13,9 +13,9 @@
       <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
         <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
-      <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <ul id="components-nav" class="nav-content collapse <%= class_names(show: components?) %>" data-bs-parent="#sidebar-nav">
         <li>
-          <a href="components-alerts.html">
+          <a href="<%= admin_components_alert_path %>" class="<%= class_names(active: current_page?(admin_components_alert_path)) %>">
             <i class="bi bi-circle"></i><span>Alerts</span>
           </a>
         </li>

@@ -11,6 +11,8 @@
  * It is generally better to create a new file per style scope.
  *
  *- require font_awesome5_webfont
+ *- require bootstrap/scss/bootstrap
+ *- require bootstrap/dist/css/bootstrap
  *= require actiontext
  *= require simpledotcss/simple
  *= require_self

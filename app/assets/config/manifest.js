@@ -2,8 +2,8 @@
 //= link_tree ../../javascript .js
 //= link_tree ../../../vendor/javascript .js
 //= link_tree ../builds
-//= link app.js
-//= link app.css
+//= link frontend.js
+//= link frontend.css
 //= link admin.css
 //= link admin.js
 //= link bootstrap-icons.woff

@@ -13,7 +13,7 @@
     "simpledotcss": "^2.0.0"
   },
   "scripts": {
-    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules",
+    "build:css": "sass ./app/assets/stylesheets/bootstrap.scss ./app/assets/builds/bootstrap.css --no-source-map --load-path=node_modules",
     "build": "esbuild app/assets/esbuild_javascripts/*.* --bundle --sourcemap --outdir=app/assets/builds"
   }
 }

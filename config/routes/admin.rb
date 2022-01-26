@@ -22,4 +22,5 @@ namespace :admin do
   get "tables/data"
   get 'charts/chartjs'
   get 'charts/apexcharts'
+  get 'charts/echarts'
 end

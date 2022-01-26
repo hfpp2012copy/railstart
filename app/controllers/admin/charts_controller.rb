@@ -4,4 +4,7 @@ class Admin::ChartsController < AdminController
 
   def apexcharts
   end
+
+  def echarts
+  end
 end

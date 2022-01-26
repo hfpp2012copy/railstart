@@ -1,24 +1,11 @@
-# README
+https://start.rails365.net/admin
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://l.ruby-china.com/photo/hfpp2012/2de9f33b-690e-4f9b-9a2c-b1d3550d4601.png!large)
 
-Things you may want to cover:
+Niceadmin 是开源的，网络上可以下载到，我用 rails 7 把它集成了
 
-* Ruby version
+会集成各种功能，插件，主要是为了以后写代码方便。
 
-* System dependencies
+还没全部弄好，正在继续中。
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+支持自动化部署：cap

@@ -4,4 +4,7 @@ class Admin::IconsController < AdminController
 
   def remix
   end
+
+  def boxicons
+  end
 end

@@ -25,4 +25,5 @@ namespace :admin do
   get 'charts/echarts'
   get 'icons/bootstrap'
   get 'icons/remix'
+  get 'icons/boxicons'
 end

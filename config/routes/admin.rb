@@ -20,4 +20,5 @@ namespace :admin do
   get "forms/validation"
   get 'tables/general'
   get "tables/data"
+  get 'charts/chartjs'
 end

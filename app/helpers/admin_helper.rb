@@ -10,4 +10,8 @@ module AdminHelper
   def tables?
     request.original_fullpath.start_with?("/admin/tables")
   end
+
+  def charts?
+    request.original_fullpath.start_with?("/admin/charts")
+  end
 end

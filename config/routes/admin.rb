@@ -9,5 +9,6 @@ namespace :admin do
   get "components/carousel"
   get "components/list_group"
   get "components/modal"
+  get "components/tabs"
   get 'forms/editors'
 end

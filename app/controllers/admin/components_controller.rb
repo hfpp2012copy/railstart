@@ -25,4 +25,7 @@ class Admin::ComponentsController < AdminController
 
   def modal
   end
+
+  def tabs
+  end
 end

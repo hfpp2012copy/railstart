@@ -111,7 +111,7 @@ gem "apexcharts", "~> 0.1.11"
 # gem "chartkick", "~> 4.1"
 
 gem "ffaker", "~> 2.20"
-gem "faker", "~> 2.19"
+# gem "faker", "~> 2.19"
 
 group :production do
   # UglifyJS only works with ES5. If you need to compress ES6, ruby-terser is a better option.

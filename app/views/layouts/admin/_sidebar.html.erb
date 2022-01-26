@@ -160,9 +160,9 @@
       <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
         <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
-      <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <ul id="icons-nav" class="nav-content collapse <%= class_names(show: icons?) %>" data-bs-parent="#sidebar-nav">
         <li>
-          <a href="icons-bootstrap.html">
+          <a href="<%= admin_icons_bootstrap_path %>" class="<%= class_names(active: current_page?(admin_icons_bootstrap_path)) %>">
             <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
           </a>
         </li>

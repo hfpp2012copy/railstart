@@ -14,4 +14,8 @@ module AdminHelper
   def charts?
     request.original_fullpath.start_with?("/admin/charts")
   end
+
+  def icons?
+    request.original_fullpath.start_with?("/admin/icons")
+  end
 end

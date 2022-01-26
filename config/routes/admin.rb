@@ -7,5 +7,6 @@ namespace :admin do
   get "components/buttons"
   get "components/cards"
   get "components/carousel"
+  get "components/list_group"
   get 'forms/editors'
 end

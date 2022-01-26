@@ -19,4 +19,7 @@ class Admin::ComponentsController < AdminController
 
   def carousel
   end
+
+  def list_group
+  end
 end

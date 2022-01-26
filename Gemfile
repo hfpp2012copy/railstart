@@ -127,3 +127,5 @@ gem "tinymce-rails-langs", "~> 5.20200505"
 
 
 gem "remixicon", "~> 1.0"
+
+gem "bootstrap-icons-helper", "~> 2.0"

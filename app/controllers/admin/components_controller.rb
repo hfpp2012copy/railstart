@@ -34,4 +34,10 @@ class Admin::ComponentsController < AdminController
 
   def progress
   end
+
+  def spinners
+  end
+
+  def tooltips
+  end
 end

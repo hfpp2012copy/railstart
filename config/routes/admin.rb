@@ -12,5 +12,7 @@ namespace :admin do
   get "components/tabs"
   get "components/pagination"
   get "components/progress"
+  get "components/spinners"
+  get "components/tooltips"
   get 'forms/editors'
 end

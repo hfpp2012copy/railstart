@@ -15,4 +15,5 @@ namespace :admin do
   get "components/spinners"
   get "components/tooltips"
   get 'forms/editors'
+  get "forms/elements"
 end

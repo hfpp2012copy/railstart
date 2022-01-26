@@ -93,7 +93,7 @@
       </a>
       <ul id="forms-nav" class="nav-content collapse <%= class_names(show: forms?) %>" data-bs-parent="#sidebar-nav">
         <li>
-          <a href="forms-elements.html">
+          <a href="<%= admin_forms_elements_path %>" class="<%= class_names(active: current_page?(admin_forms_elements_path)) %>">
             <i class="bi bi-circle"></i><span>Form Elements</span>
           </a>
         </li>

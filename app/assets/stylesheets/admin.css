@@ -12,6 +12,7 @@
  *
  *= require niceadmin
  *= require bootstrap-icons
+ *= require remixicon/fonts/remixicon.css
  *= require simple-datatables/dist/style
  *= require_self
  */

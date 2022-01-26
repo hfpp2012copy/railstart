@@ -24,4 +24,5 @@ namespace :admin do
   get 'charts/apexcharts'
   get 'charts/echarts'
   get 'icons/bootstrap'
+  get 'icons/remix'
 end

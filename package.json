@@ -11,7 +11,6 @@
     "echarts": "^5.2.2",
     "esbuild": "^0.14.12",
     "jquery": "^3.6.0",
-    "remixicon": "^2.5.0",
     "sass": "^1.49.0",
     "simple-datatables": "^3.2.0",
     "simpledotcss": "^2.0.0"

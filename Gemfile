@@ -124,3 +124,6 @@ gem "tinymce-rails", "~> 5.10"
 gem "tinymce-rails-langs", "~> 5.20200505"
 
 # gem "autoprefixer-rails"
+
+
+gem "remixicon", "~> 1.0"

@@ -16,4 +16,7 @@ class Admin::ComponentsController < AdminController
 
   def cards
   end
+
+  def carousel
+  end
 end

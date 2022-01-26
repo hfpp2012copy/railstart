@@ -6,4 +6,8 @@ module AdminHelper
   def forms?
     request.original_fullpath.start_with?("/admin/forms")
   end
+
+  def tables?
+    request.original_fullpath.start_with?("/admin/tables")
+  end
 end

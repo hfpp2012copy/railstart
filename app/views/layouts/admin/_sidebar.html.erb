@@ -119,14 +119,14 @@
       <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
         <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
-      <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <ul id="tables-nav" class="nav-content collapse <%= class_names(show: tables?) %>" data-bs-parent="#sidebar-nav">
         <li>
           <a href="<%= admin_tables_general_path %>" class="<%= class_names(active: current_page?(admin_tables_general_path)) %>">
             <i class="bi bi-circle"></i><span>General Tables</span>
           </a>
         </li>
         <li>
-          <a href="tables-data.html">
+          <a href="<%= admin_tables_data_path %>" class="<%= class_names(active: current_page?(admin_tables_data_path)) %>">
             <i class="bi bi-circle"></i><span>Data Tables</span>
           </a>
         </li>

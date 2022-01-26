@@ -4,4 +4,7 @@ class Admin::ComponentsController < AdminController
 
   def accordion
   end
+
+  def badges
+  end
 end

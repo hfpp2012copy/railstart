@@ -22,4 +22,7 @@ class Admin::ComponentsController < AdminController
 
   def list_group
   end
+
+  def modal
+  end
 end

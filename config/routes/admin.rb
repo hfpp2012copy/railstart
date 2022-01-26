@@ -8,5 +8,6 @@ namespace :admin do
   get "components/cards"
   get "components/carousel"
   get "components/list_group"
+  get "components/modal"
   get 'forms/editors'
 end

@@ -5,5 +5,6 @@ namespace :admin do
   get "components/badges"
   get "components/breadcrumbs"
   get "components/buttons"
+  get "components/cards"
   get 'forms/editors'
 end

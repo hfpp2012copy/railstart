@@ -13,4 +13,7 @@ class Admin::ComponentsController < AdminController
 
   def buttons
   end
+
+  def cards
+  end
 end

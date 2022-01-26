@@ -7,4 +7,7 @@ class Admin::FormsController < AdminController
 
   def layouts
   end
+
+  def validation
+  end
 end

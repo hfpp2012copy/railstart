@@ -17,4 +17,5 @@ namespace :admin do
   get 'forms/editors'
   get "forms/elements"
   get "forms/layouts"
+  get "forms/validation"
 end

@@ -4,4 +4,7 @@ class Admin::FormsController < AdminController
 
   def elements
   end
+
+  def layouts
+  end
 end

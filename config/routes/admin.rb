@@ -16,4 +16,5 @@ namespace :admin do
   get "components/tooltips"
   get 'forms/editors'
   get "forms/elements"
+  get "forms/layouts"
 end

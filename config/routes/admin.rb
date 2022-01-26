@@ -10,5 +10,7 @@ namespace :admin do
   get "components/list_group"
   get "components/modal"
   get "components/tabs"
+  get "components/pagination"
+  get "components/progress"
   get 'forms/editors'
 end

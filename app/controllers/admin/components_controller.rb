@@ -28,4 +28,10 @@ class Admin::ComponentsController < AdminController
 
   def tabs
   end
+
+  def pagination
+  end
+
+  def progress
+  end
 end

@@ -6,8 +6,3 @@
 //= link frontend.css
 //= link admin.css
 //= link admin.js
-//= link bootstrap-icons.woff
-//= link bootstrap-icons.woff2
-//- link apexcharts.js
-//= link apexcharts/dist/apexcharts.min.js
-//= link echarts/dist/echarts.min.js

@@ -1,8 +1,8 @@
 @font-face {
   font-family: "bootstrap-icons";
-  src: url("bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345")
+  src: url("bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d")
       format("woff2"),
-    url("bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff");
+    url("bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("woff");
 }
 
 .bi::before,
@@ -4460,10 +4460,10 @@
 .bi-ticket-fill::before {
   content: "\f6c8";
 }
-.bi-ticket-perferated-fill::before {
+.bi-ticket-perforated-fill::before {
   content: "\f6c9";
 }
-.bi-ticket-perferated::before {
+.bi-ticket-perforated::before {
   content: "\f6ca";
 }
 .bi-ticket::before {

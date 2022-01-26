@@ -3,5 +3,7 @@ namespace :admin do
   get 'components/alert'
   get "components/accordion"
   get "components/badges"
+  get "components/breadcrumbs"
+  get "components/buttons"
   get 'forms/editors'
 end

@@ -7,4 +7,10 @@ class Admin::ComponentsController < AdminController
 
   def badges
   end
+
+  def breadcrumbs
+  end
+
+  def buttons
+  end
 end

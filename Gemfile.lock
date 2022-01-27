@@ -77,6 +77,8 @@ GEM
     apexcharts (0.1.11)
       dry-schema (~> 1.5)
       smart_kv (~> 0.2.8)
+    autoprefixer-rails (10.4.2.0)
+      execjs (~> 2)
     awesome_print (1.9.2)
     bcrypt (3.1.16)
     bcrypt_pbkdf (1.1.0)
@@ -381,6 +383,7 @@ PLATFORMS
 
 DEPENDENCIES
   apexcharts (~> 0.1.11)
+  autoprefixer-rails
   awesome_print (~> 1.9)
   bcrypt_pbkdf (~> 1.1)
   bootsnap

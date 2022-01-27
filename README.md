@@ -1,6 +1,6 @@
 ## railstart-niceadmin
 
-Backend management system based on [Bootstrap 5](https://getbootstrap.com/) and [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) and [Rails 7](https://rubyonrails.org/)
+Backend admin dashboard management system based on [Bootstrap 5](https://getbootstrap.com/) and [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) and [Rails 7](https://rubyonrails.org/)
 
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/hfpp2012/railstart-niceadmin/blob/master/LICENSE)
 
@@ -38,11 +38,11 @@ Please make sure that Redis and PostgreSQL server is running.
 - Text Editor: [Quill](https://www.quill.org/) and [TinyMCE](https://www.tiny.cloud/)
 - Breadcrumbs(comming soon)
 - Integrate [Action Text](https://guides.rubyonrails.org/action_text_overview.html)
-- Support fronend website seo
+- Support frontend website seo
 - Custom error page
 - Flash helper
 - Support API(comming soon)
-- Integrate [tailwind](https://tailwindcss.com/) for fronend(comming soon)
+- Integrate [tailwind](https://tailwindcss.com/) for frontend(comming soon)
 - Integrate [Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
 
 ### Included gems
@@ -109,7 +109,7 @@ bundle exec cap production puma:nginx_config
 bundle exec cap production deploy
 ```
 
-Also support other capistrano command.
+Also support other capistrano commands.
 
 ```
 gem "capistrano", "~> 3.16", require: false

@@ -1,4 +1,5 @@
 class Admin::PagesController < AdminController
+  layout "devise", only: [:register]
   def profile
   end
 
@@ -6,5 +7,8 @@ class Admin::PagesController < AdminController
   end
 
   def contact
+  end
+
+  def register
   end
 end

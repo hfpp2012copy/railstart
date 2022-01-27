@@ -203,7 +203,7 @@
     </li><!-- End Contact Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-register.html">
+      <a class="nav-link <%= class_names(collapsed: !current_page?(admin_pages_register_path)) %>" href="<%= admin_pages_register_path %>">
         <i class="bi bi-card-list"></i>
         <span>Register</span>
       </a>

@@ -29,4 +29,5 @@ namespace :admin do
   get 'pages/profile'
   get 'pages/faq'
   get 'pages/contact'
+  get 'pages/register'
 end

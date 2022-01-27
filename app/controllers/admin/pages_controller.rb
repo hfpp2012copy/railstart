@@ -1,5 +1,5 @@
 class Admin::PagesController < AdminController
-  layout "devise", only: [:register, :login]
+  layout "devise", only: [:register, :login, :error]
   def profile
   end
 
@@ -13,5 +13,8 @@ class Admin::PagesController < AdminController
   end
 
   def login
+  end
+
+  def error
   end
 end

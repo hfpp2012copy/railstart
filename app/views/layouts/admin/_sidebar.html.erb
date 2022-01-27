@@ -217,7 +217,7 @@
     </li><!-- End Login Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-error-404.html">
+      <a class="nav-link <%= class_names(collapsed: !current_page?(admin_pages_error_path)) %>" href="<%= admin_pages_error_path %>">
         <i class="bi bi-dash-circle"></i>
         <span>Error 404</span>
       </a>

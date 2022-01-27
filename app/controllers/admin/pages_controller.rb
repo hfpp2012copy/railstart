@@ -17,4 +17,7 @@ class Admin::PagesController < AdminController
 
   def error
   end
+
+  def blank
+  end
 end

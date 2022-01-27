@@ -32,4 +32,5 @@ namespace :admin do
   get 'pages/register'
   get 'pages/login'
   get 'pages/error'
+  get 'pages/blank'
 end

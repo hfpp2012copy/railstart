@@ -224,7 +224,7 @@
     </li><!-- End Error 404 Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-blank.html">
+      <a class="nav-link <%= class_names(collapsed: !current_page?(admin_pages_blank_path)) %>" href="<%= admin_pages_blank_path %>">
         <i class="bi bi-file-earmark"></i>
         <span>Blank</span>
       </a>

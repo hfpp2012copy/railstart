@@ -182,7 +182,7 @@
     <li class="nav-heading">Pages</li>
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="users-profile.html">
+      <a class="nav-link <%= class_names(collapsed: !current_page?(admin_pages_profile_path)) %>" href="<%= admin_pages_profile_path %>">
         <i class="bi bi-person"></i>
         <span>Profile</span>
       </a>

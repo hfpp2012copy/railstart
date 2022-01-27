@@ -26,4 +26,5 @@ namespace :admin do
   get 'icons/bootstrap'
   get 'icons/remix'
   get 'icons/boxicons'
+  get 'pages/profile'
 end

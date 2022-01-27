@@ -100,13 +100,11 @@ gem "meta-tags", "~> 2.16"
 
 # gem "inline_svg", "~> 1.8"
 # gem "font-awesome-rails", "~> 4.7"
-# 如果要用，用下面这个
 # gem "font_awesome5_rails", "~> 1.5"
 
 gem "devise", "~> 4.8"
 
 gem "groupdate", "~> 6.0"
-# 不用 gem 里的 js，是因为没有那么新，用 yarn 的比较新
 gem "apexcharts", "~> 0.1.11"
 # gem "chartkick", "~> 4.1"
 
@@ -119,7 +117,6 @@ group :production do
   gem "terser", "~> 1.1"
 end
 
-# 其他的方式都不太适合用，除了这个
 gem "tinymce-rails", "~> 5.10"
 gem "tinymce-rails-langs", "~> 5.20200505"
 
@@ -128,6 +125,9 @@ gem "autoprefixer-rails"
 
 gem "remixicon", "~> 1.0"
 
+# optional: just for generate svg
 gem "bootstrap-icons-helper", "~> 2.0"
 
 gem "bootstrap_icons_rubygem", "~> 0.1.0"
+
+gem "quill-editor-rails"

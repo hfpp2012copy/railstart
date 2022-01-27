@@ -6,12 +6,11 @@
     <%= csp_meta_tag %>
 
     <%= favicon_link_tag "admin/favicon.png" %>
+    <%= display_meta_tags site: ENV["website_title"] %>
 
-    <%- stylesheet_link_tag "bootstrap", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "frontend", "data-turbo-track": "reload" %>
     <%- javascript_include_tag "frontend", "data-turbo-track": "reload", defer: true %>
     <%= javascript_importmap_tags %>
-    <%= display_meta_tags site: ENV["website_title"] %>
   </head>
 
   <body>

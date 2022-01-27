@@ -210,7 +210,7 @@
     </li><!-- End Register Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-login.html">
+      <a class="nav-link <%= class_names(collapsed: !current_page?(admin_pages_login_path)) %>" href="<%= admin_pages_login_path %>">
         <i class="bi bi-box-arrow-in-right"></i>
         <span>Login</span>
       </a>

@@ -27,4 +27,5 @@ namespace :admin do
   get 'icons/remix'
   get 'icons/boxicons'
   get 'pages/profile'
+  get 'pages/faq'
 end

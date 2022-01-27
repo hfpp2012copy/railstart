@@ -28,4 +28,5 @@ namespace :admin do
   get 'icons/boxicons'
   get 'pages/profile'
   get 'pages/faq'
+  get 'pages/contact'
 end

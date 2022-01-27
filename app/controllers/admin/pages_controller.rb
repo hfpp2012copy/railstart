@@ -4,4 +4,7 @@ class Admin::PagesController < AdminController
 
   def faq
   end
+
+  def contact
+  end
 end

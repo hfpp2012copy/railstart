@@ -8,14 +8,12 @@
     "boxicons": "^2.1.1",
     "chart.js": "^3.7.0",
     "echarts": "^5.2.2",
-    "esbuild": "^0.14.12",
     "jquery": "^3.6.0",
     "sass": "^1.49.0",
     "simple-datatables": "^3.2.0",
     "simpledotcss": "^2.0.0"
   },
   "scripts": {
-    "build:css": "sass ./app/assets/stylesheets/bootstrap.scss ./app/assets/builds/bootstrap.css --no-source-map --load-path=node_modules",
-    "build": "esbuild app/assets/esbuild_javascripts/*.* --bundle --sourcemap --outdir=app/assets/builds"
+    "build:css": "sass ./app/assets/stylesheets/bootstrap.scss ./app/assets/builds/bootstrap.css --no-source-map --load-path=node_modules"
   }
 }

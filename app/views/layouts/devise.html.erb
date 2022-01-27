@@ -14,8 +14,6 @@
     <%= javascript_include_tag "admin", "data-turbo-track": "reload", defer: true %>
     <%= javascript_importmap_tags %>
     <%= display_meta_tags site: ENV["website_title"] %>
-    <style><%= yield :stylesheets %></style>
-    <%= yield :head %>
   </head>
 
   <body>

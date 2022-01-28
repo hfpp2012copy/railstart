@@ -60,6 +60,39 @@ namespace :deploy do
       end
     end
   end
+
+  namespace :assets do
+    Rake::Task['deploy:assets:precompile'].clear_actions
+
+    desc "Precompile assets on local machine and upload them to the server."
+    task :precompile do
+      run_locally do
+        execute "mkdir -p ./public/assets"
+        execute "rm -r ./public/assets"
+      end
+
+      run_locally do
+        execute "RAILS_ENV=production bundle exec rake assets:precompile"
+        execute 'rm ./tmp/assets.tar.gz' rescue nil
+        execute 'tar -C ./public -zcvf ./tmp/assets.tar.gz assets'
+      end
+
+      on roles(:web) do
+        within release_path do
+          public_path = "#{release_path}/public"
+
+          upload! "./tmp/assets.tar.gz", public_path
+
+          execute "tar -C #{public_path} -zxvf #{public_path}/assets.tar.gz"
+        end
+      end
+
+      run_locally do
+        execute "rm -r ./public/assets"
+        execute 'rm ./tmp/assets.tar.gz' rescue nil
+      end
+    end
+  end
 end
 
 namespace :logs do

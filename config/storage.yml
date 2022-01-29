@@ -8,10 +8,10 @@ local:
 
 aliyun:
   service: Aliyun
-  access_key_id: <%= ENV["access_key_id"] %>
-  access_key_secret: <%= ENV["access_key_secret"] %>
-  bucket: <%= ENV["bucket"] %>
-  endpoint: <%= ENV["endpoint"] %>
+  access_key_id: <%= ENV["upload_access_id"] %>
+  access_key_secret: <%= ENV["upload_access_secret"] %>
+  bucket: <%= ENV["upload_bucket"] %>
+  endpoint: <%= ENV["upload_endpoint"] %>
   # path prefix, default: /
   path: "uploads"
   # Bucket public: true/false, default: true, for generate public/private URL.

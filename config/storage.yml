@@ -6,6 +6,17 @@ local:
   service: Disk
   root: <%= Rails.root.join("storage") %>
 
+aliyun:
+  service: Aliyun
+  access_key_id: <%= ENV["access_key_id"] %>
+  access_key_secret: <%= ENV["access_key_secret"] %>
+  bucket: <%= ENV["bucket"] %>
+  endpoint: <%= ENV["endpoint"] %>
+  # path prefix, default: /
+  path: "uploads"
+  # Bucket public: true/false, default: true, for generate public/private URL.
+  public: true
+
 # Use bin/rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:
 #   service: S3

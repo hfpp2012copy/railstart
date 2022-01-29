@@ -9,5 +9,5 @@
 require 'ffaker'
 
 50.times do
-  Post.create title: FFaker::Name.name, body: FFaker::Name.name
+  Post.create title: FFaker::Name.name, body: "</h1>#{FFaker::Name.name}</h1>"
 end

@@ -76,5 +76,5 @@ test:
 production:
   <<: *default
   database: railstart_production
-  username: deploy
-  password: <%= ENV['RAILSTART_DATABASE_PASSWORD'] %>
+  username: <%= ENV["database_username"] %>
+  password: <%= ENV['database_password'] %>

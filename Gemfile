@@ -130,3 +130,5 @@ gem "bootstrap_icons_rubygem", "~> 0.1.0"
 gem "quill-editor-rails"
 
 gem "activestorage-aliyun", github: "hfpp2012/activestorage-aliyun"
+
+gem "hotwire-livereload", "~> 1.1", :group => :development

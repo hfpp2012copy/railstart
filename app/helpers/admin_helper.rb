@@ -18,4 +18,16 @@ module AdminHelper
   def icons?
     request.original_fullpath.start_with?("/admin/icons")
   end
+
+  def nav_link(link_path, &block)
+    link_to link_path, class: "nav-link #{class_names(active: current_page?(link_path))}" do
+      block.call
+    end
+  end
+
+  def nav_page_link(link_path, &block)
+    link_to link_path, class: "nav-link #{class_names(collapsed: !current_page?(link_path))}" do
+      block.call
+    end
+  end
 end

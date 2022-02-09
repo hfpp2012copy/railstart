@@ -2,7 +2,6 @@ import { Controller } from "@hotwired/stimulus";
 
 export default class extends Controller {
   connect() {
-    // tinymce.remove()
     tinymce.init({
       selector: "textarea.tinymce",
       plugins:
@@ -28,5 +27,9 @@ export default class extends Controller {
         "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }",
       language: "zh_CN",
     });
+  }
+
+  disconnect() {
+    tinymce.remove();
   }
 }

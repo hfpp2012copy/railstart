@@ -36,14 +36,15 @@ Please make sure that Redis and PostgreSQL server is running.
 - Charts with [chartjs](https://www.chartjs.org/) and [apexcharts](https://apexcharts.com/) and [echarts](https://echarts.apache.org/zh/index.html)
 - Icons: [Bootstrap Icons](https://icons.getbootstrap.com/) and [RemixIcons](https://remixicon.com/) and [Boxicons](https://boxicons.com/) and [FontAwesome](https://fontawesome.com/)
 - Text Editor: [Quill](https://www.quill.org/) and [TinyMCE](https://www.tiny.cloud/)
-- Breadcrumbs(comming soon)
+- Breadcrumbs
 - Integrate [Action Text](https://guides.rubyonrails.org/action_text_overview.html)
 - Support frontend website seo
 - Custom error page
 - Flash helper
 - Support API(comming soon)
-- Integrate [tailwind](https://tailwindcss.com/) for frontend(comming soon)
+- Integrate [tailwind](https://tailwindcss.com/) for frontend
 - Integrate [Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
+- Support aliyun, qiniu cloud storage
 
 ### Included gems
 

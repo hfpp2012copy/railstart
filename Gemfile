@@ -132,3 +132,7 @@ gem "quill-editor-rails"
 gem "activestorage-aliyun", github: "hfpp2012/activestorage-aliyun"
 
 gem "hotwire-livereload", "~> 1.1", :group => :development
+
+gem "sentry-ruby"
+gem "sentry-rails"
+gem "sentry-sidekiq"

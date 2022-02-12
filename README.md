@@ -46,6 +46,7 @@ Please make sure that Redis and PostgreSQL server is running.
 - Integrate [Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
 - Support aliyun, qiniu cloud storage
 - Move stimulus from importmap to webpacker
+- Support letter avatar
 
 ### Included gems
 

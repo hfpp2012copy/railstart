@@ -47,6 +47,7 @@ Please make sure that Redis and PostgreSQL server is running.
 - Support aliyun, qiniu cloud storage
 - Move stimulus from importmap to webpacker
 - Support letter avatar
+- Admin user can upload own avatar
 
 ### Included gems
 
@@ -66,6 +67,7 @@ Please make sure that Redis and PostgreSQL server is running.
 - [stimulus-rails](https://github.com/hotwired/stimulus-rails)
 - [jbuilder](https://github.com/rails/jbuilder)
 - [shakapacker](https://github.com/shakacode/shakapacker)
+- [letter_avatar](https://github.com/ksz2k/letter_avatar)
 
 ### Installation
 

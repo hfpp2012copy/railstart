@@ -31,7 +31,6 @@ Please make sure that Redis and PostgreSQL server is running.
 - Beautiful style based on [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
 - Based on [Rails 7](https://rubyonrails.org/) and [hotwired turbo](https://turbo.hotwired.dev/) and [stimulus](https://stimulus.hotwired.dev/)
 - Integrate automation deployment: [capistrano](https://github.com/capistrano/capistrano)
-- [Devise](https://github.com/heartcombo/devise) for authentication
 - Pagination(comming soon)
 - Charts with [chartjs](https://www.chartjs.org/) and [apexcharts](https://apexcharts.com/) and [echarts](https://echarts.apache.org/zh/index.html)
 - Icons: [Bootstrap Icons](https://icons.getbootstrap.com/) and [RemixIcons](https://remixicon.com/) and [Boxicons](https://boxicons.com/) and [FontAwesome](https://fontawesome.com/)
@@ -48,6 +47,7 @@ Please make sure that Redis and PostgreSQL server is running.
 - Move stimulus from importmap to webpacker
 - Support letter avatar
 - Admin user can upload own avatar
+- Own authentications
 
 ### Included gems
 
@@ -58,7 +58,6 @@ Please make sure that Redis and PostgreSQL server is running.
 - [groupdate](https://github.com/ankane/groupdate)
 - [pghero](https://github.com/ankane/pghero)
 - [whenever](https://github.com/javan/whenever)
-- [devise](https://github.com/heartcombo/devise)
 - [dotenv-rails](https://github.com/bkeepers/dotenv)
 - [image_processing](https://github.com/janko/image_processing)
 - [importmap-rails](https://github.com/rails/importmap-rails)

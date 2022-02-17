@@ -1,9 +1,16 @@
 <div class="pagetitle">
-  <h1>Dashboard</h1>
+  <h1><%= @page_title %></h1>
   <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-      <li class="breadcrumb-item active">Dashboard</li>
+      <% breadcrumb_trail do |crumb| %>
+        <li class="breadcrumb-item <%= crumb.current? ? "active" : "" %>">
+          <% if crumb.url == "" %>
+            <%= crumb.name %>
+          <% else %>
+            <%= link_to crumb.name, crumb.url, (crumb.current? ? {"aria-current" => "page"} : {}) %>
+          <% end %>
+        </li>
+      <% end %>
     </ol>
   </nav>
-</div><!-- End Page Title -->
+</div>

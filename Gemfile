@@ -107,8 +107,10 @@ gem "groupdate", "~> 6.0"
 gem "apexcharts", "~> 0.1.11"
 # gem "chartkick", "~> 4.1"
 
-gem "ffaker", "~> 2.20"
-# gem "faker", "~> 2.19"
+group :development do
+  gem "ffaker", "~> 2.20"
+  # gem "faker", "~> 2.19"
+end
 
 group :production do
   # UglifyJS only works with ES5. If you need to compress ES6, ruby-terser is a better option.
@@ -136,3 +138,5 @@ gem "hotwire-livereload", "~> 1.1", :group => :development
 gem "sentry-ruby"
 gem "sentry-rails"
 gem "sentry-sidekiq"
+
+gem "loaf", "~> 0.10.0"

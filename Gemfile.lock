@@ -231,6 +231,8 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    loaf (0.10.0)
+      railties (>= 3.2)
     loofah (2.13.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -453,6 +455,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
+  loaf (~> 0.10.0)
   meta-tags (~> 2.16)
   pg (~> 1.2)
   pghero (~> 2.8)

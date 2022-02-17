@@ -6,9 +6,17 @@ Backend admin dashboard management system based on [Bootstrap 5](https://getboot
 
 Preview: https://start.rails365.net/admin
 
-![](https://l.ruby-china.com/photo/hfpp2012/2de9f33b-690e-4f9b-9a2c-b1d3550d4601.png!large)
+![image](https://user-images.githubusercontent.com/740643/154393273-9d8a5dc2-99e6-406b-8a11-be0504bb0316.png)
 
-![](https://l.ruby-china.com/photo/xianyuit/184a6ac1-398d-4693-be6f-8f877bbedc6a.png!large)
+![image](https://user-images.githubusercontent.com/740643/154393508-be8fd9e1-0754-4b6e-92da-448705eb4f58.png)
+
+![image](https://user-images.githubusercontent.com/740643/154393554-c373b51f-0467-4b58-99a7-cce14082fd99.png)
+
+![](https://l.ruby-china.com/photo/hfpp2012/97b44b5b-c287-416b-99ef-be444a9316ba.png!large)
+
+![](https://l.ruby-china.com/photo/hfpp2012/4cf38d96-83cd-4baa-867e-5b25a3d15380.png!large)
+
+![](https://l.ruby-china.com/photo/hfpp2012/78d91be4-b163-4513-9da6-1901c303dbb1.png!large)
 
 [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) is open source template based on [Bootstrap 5](https://getbootstrap.com/), you can download it from network, I integrate it with Rails 7.
 
@@ -25,6 +33,8 @@ It will integrate various functions and plugins, mainly for easy writing code.
 - [Redis](https://redis.io/)
 
 - [ImageMagick](https://imagemagick.org/index.php)
+
+- [libvips](https://github.com/libvips/libvips)
 
 Please make sure that Redis and PostgreSQL server is running.
 
@@ -62,6 +72,8 @@ Please make sure that Redis and PostgreSQL server is running.
 - Support Internationalization (I18n)(comming soon)
 - Support Graphql API(comming soon)
 - Support Monitor performance of you Rails applications
+- Support login status management
+- Support markdown parser(comming soon)
 
 ### Included gems
 

@@ -18,6 +18,10 @@ Preview: https://start.rails365.net/admin
 
 ![](https://l.ruby-china.com/photo/hfpp2012/78d91be4-b163-4513-9da6-1901c303dbb1.png!large)
 
+![](https://l.ruby-china.com/photo/hfpp2012/e9897894-32f1-4b23-8a08-92362d186983.png!large)
+
+![](https://l.ruby-china.com/photo/hfpp2012/154b4adf-2878-4428-9610-90dbe88eac15.png!large)
+
 [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) is open source template based on [Bootstrap 5](https://getbootstrap.com/), you can download it from network, I integrate it with Rails 7.
 
 It will integrate various functions and plugins, mainly for easy writing code.
@@ -43,15 +47,15 @@ Please make sure that Redis and PostgreSQL server is running.
 - Beautiful style based on [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
 - Based on [Rails 7](https://rubyonrails.org/) and [hotwired turbo](https://turbo.hotwired.dev/) and [stimulus](https://stimulus.hotwired.dev/)
 - Integrate automation deployment: [capistrano](https://github.com/capistrano/capistrano)
-- Pagination
+- [Pagination](https://github.com/ddnexus/pagy)
 - Charts with [chartjs](https://www.chartjs.org/) and [apexcharts](https://apexcharts.com/) and [echarts](https://echarts.apache.org/zh/index.html)
 - Icons: [Bootstrap Icons](https://icons.getbootstrap.com/) and [RemixIcons](https://remixicon.com/) and [Boxicons](https://boxicons.com/) and [FontAwesome](https://fontawesome.com/)
 - Text Editor: [trix](https://github.com/basecamp/trix) and [TinyMCE](https://www.tiny.cloud/)
-- Breadcrumbs
+- [Breadcrumbs](https://github.com/piotrmurach/loaf)
 - Integrate [Action Text](https://guides.rubyonrails.org/action_text_overview.html)
 - Support frontend website seo
 - Custom error page
-- Flash helper with stimulus support
+- Bootstrap and TailwindCSS flash helper with stimulus support
 - Support API(comming soon)
 - Integrate [TailwindCSS](https://tailwindcss.com/) for frontend
 - Integrate [Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
@@ -60,8 +64,8 @@ Please make sure that Redis and PostgreSQL server is running.
 - Support [letter avatar](https://github.com/ksz2k/letter_avatar)
 - Supoort [ui faces](https://www.uifaces.co/) avatar
 - Admin user can upload own avatar
-- Own authentications
-- Support payment: alipay, wechatpay(comming soon)
+- Support own authentication system
+- Support payment: stripe, alipay, wechatpay(comming soon)
 - Support Social Logins with OAuth: Github, Wechat, Google(comming soon)
 - Support Wechat public account development(comming soon)
 - Support video upload(comming soon)

@@ -8,6 +8,8 @@ Preview: https://start.rails365.net/admin
 
 ![](https://l.ruby-china.com/photo/hfpp2012/2de9f33b-690e-4f9b-9a2c-b1d3550d4601.png!large)
 
+![](https://l.ruby-china.com/photo/xianyuit/184a6ac1-398d-4693-be6f-8f877bbedc6a.png!large)
+
 [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) is open source template based on [Bootstrap 5](https://getbootstrap.com/), you can download it from network, I integrate it with Rails 7.
 
 It will integrate various functions and plugins, mainly for easy writing code.
@@ -31,23 +33,35 @@ Please make sure that Redis and PostgreSQL server is running.
 - Beautiful style based on [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
 - Based on [Rails 7](https://rubyonrails.org/) and [hotwired turbo](https://turbo.hotwired.dev/) and [stimulus](https://stimulus.hotwired.dev/)
 - Integrate automation deployment: [capistrano](https://github.com/capistrano/capistrano)
-- Pagination(comming soon)
+- Pagination
 - Charts with [chartjs](https://www.chartjs.org/) and [apexcharts](https://apexcharts.com/) and [echarts](https://echarts.apache.org/zh/index.html)
 - Icons: [Bootstrap Icons](https://icons.getbootstrap.com/) and [RemixIcons](https://remixicon.com/) and [Boxicons](https://boxicons.com/) and [FontAwesome](https://fontawesome.com/)
-- Text Editor: [Quill](https://www.quill.org/) and [TinyMCE](https://www.tiny.cloud/)
+- Text Editor: [trix](https://github.com/basecamp/trix) and [TinyMCE](https://www.tiny.cloud/)
 - Breadcrumbs
 - Integrate [Action Text](https://guides.rubyonrails.org/action_text_overview.html)
 - Support frontend website seo
 - Custom error page
-- Flash helper
+- Flash helper with stimulus support
 - Support API(comming soon)
-- Integrate [tailwind](https://tailwindcss.com/) for frontend
+- Integrate [TailwindCSS](https://tailwindcss.com/) for frontend
 - Integrate [Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
-- Support aliyun, qiniu cloud storage
-- Move stimulus from importmap to webpacker
-- Support letter avatar
+- Support [aliyun](https://github.com/huacnlee/activestorage-aliyun), [qiniu](https://rubygems.org/gems/activestorage_qiniu) cloud storage
+- Move stimulus from importmap to [webpacker](https://github.com/shakacode/shakapacker)
+- Support [letter avatar](https://github.com/ksz2k/letter_avatar)
+- Supoort [ui faces](https://www.uifaces.co/) avatar
 - Admin user can upload own avatar
 - Own authentications
+- Support payment: alipay, wechatpay(comming soon)
+- Support Social Logins with OAuth: Github, Wechat, Google(comming soon)
+- Support Wechat public account development(comming soon)
+- Support video upload(comming soon)
+- Admin can upload own website icon and set other system informations(comming soon)
+- Support clean and simple scaffold template(comming soon)
+- Simple code for form builder(comming soon)
+- Support Notifications(comming soon)
+- Support Internationalization (I18n)(comming soon)
+- Support Graphql API(comming soon)
+- Support Monitor performance of you Rails applications
 
 ### Included gems
 
@@ -64,9 +78,13 @@ Please make sure that Redis and PostgreSQL server is running.
 - [sprockets-rails](https://github.com/rails/sprockets-rails)
 - [turbo-rails](https://github.com/hotwired/turbo-rails)
 - [stimulus-rails](https://github.com/hotwired/stimulus-rails)
-- [jbuilder](https://github.com/rails/jbuilder)
 - [shakapacker](https://github.com/shakacode/shakapacker)
 - [letter_avatar](https://github.com/ksz2k/letter_avatar)
+- [exception-track](https://rubygems.org/gems/exception-track)
+- [loaf](https://rubygems.org/gems/loaf)
+- [browser](https://rubygems.org/gems/browser)
+- [rack-cors](https://rubygems.org/gems/rack-cors)
+- [rack-mini-profiler](https://rubygems.org/gems/rack-mini-profiler)
 
 ### Installation
 

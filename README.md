@@ -36,9 +36,13 @@ It will integrate various functions and plugins, mainly for easy writing code.
 
 - [Redis](https://redis.io/)
 
-- [ImageMagick](https://imagemagick.org/index.php)
+- [libvips](https://github.com/libvips/libvips) v8.6+ or [ImageMagick](https://imagemagick.org/index.php) for image analysis and transformations
 
-- [libvips](https://github.com/libvips/libvips)
+- [ffmpeg](http://ffmpeg.org/) v3.4+ for video previews and ffprobe for video/audio analysis
+
+- [poppler](https://poppler.freedesktop.org/) or [muPDF](https://mupdf.com/) for PDF previews
+
+- [Graphviz](https://github.com/voormedia/rails-erd)
 
 Please make sure that Redis and PostgreSQL server is running.
 
@@ -64,7 +68,7 @@ Please make sure that Redis and PostgreSQL server is running.
 - Support [letter avatar](https://github.com/ksz2k/letter_avatar)
 - Supoort [ui faces](https://www.uifaces.co/) avatar
 - Admin user can upload own avatar
-- Support own authentication system
+- Support Own authentication system
 - Support payment: stripe, alipay, wechatpay(comming soon)
 - Support Social Logins with OAuth: Github, Wechat, Google(comming soon)
 - Support Wechat public account development(comming soon)
@@ -109,14 +113,16 @@ Install your system softwares first.
 #### Mac OS X
 
 ```
-brew install imagemagick vips redis postgresql gs
+brew install imagemagick vips redis postgresql gs poppler mupdf ffmpeg graphviz
 ```
 
 #### Ubuntu
 
 ```
-$ sudo apt-get install postgresql-14 redis-server imagemagick ghostscript libvips
+$ sudo apt install postgresql-14 redis-server imagemagick ghostscript libvips poppler-utils libpoppler-dev mupdf ffmpeg graphviz
 ```
+
+pdf prewview: https://gist.github.com/Dayjo/618794d4ff37bb82ddfb02c63b450a81
 
 Then follow this link to install Ruby and Rails
 
